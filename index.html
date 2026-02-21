@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Product Courier Summary</title>
+    <title>Product Courier Tool</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
@@ -74,7 +74,7 @@
 <body>
 
 <div class="container">
-    <h2>🚚 Product Courier Summary</h2>
+    <h2>🚚 Product Courier Tool</h2>
 
     <textarea id="inputData" placeholder="Paste your product data here..."></textarea>
 
@@ -148,7 +148,7 @@ function processData() {
             output += `  • ${courier}: ${formula} = ${sum}\n`;
         });
 
-        output += "----------------------------------------";
+        output += "----------------------------------------\n";
     });
 
     document.getElementById("output").textContent = output;
@@ -167,5 +167,3 @@ function copyOutput() {
 
 </body>
 </html>
-
-
